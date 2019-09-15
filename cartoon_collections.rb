@@ -6,8 +6,14 @@ end
 
 def summon_captain_planet(array)
   array.map do |caps|
+<<<<<<< HEAD
     caps.capitalize + "!"
   end
+=======
+    caps.upcase + "!"
+  end
+  summon_captain_planet(array)
+>>>>>>> 71e93e72a7211983a5e40416f9d679e2e5a5a271
 end
 
 def long_planeteer_calls(array)
